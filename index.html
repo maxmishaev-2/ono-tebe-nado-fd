@@ -14,8 +14,8 @@
       <nav class="header__menu">
         <ul class="header__menu-list">
           <li class="header__menu-item"><a>главная</a></li>
-          <li class="header__menu-item"><a href="#">посмотреть лоты</a></li>
-          <li class="header__menu-item"><a href="#">об аукционе</a></li>
+          <li class="header__menu-item"><a href="#lots">посмотреть лоты</a></li>
+          <li class="header__menu-item"><a href="#about">об аукционе</a></li>
         </ul>
       </nav>
       <a class="header__logo-ref" href="#">
@@ -51,7 +51,7 @@
           </div>
         </div>        
       </section>
-      <section class="lots">
+      <section id="lots" class="lots">
         <h2 class="lots__title">Лоты</h2>
         <ul class="lots__list">
           <li class="lots__list-item">
@@ -105,13 +105,12 @@
         </ul>
         <a class="lots__article-see-more-ref" href="#">Посмотреть больше</a>
       </section>
-      <section class="about">
+      <section id="about" class="about">
         <div class="about__logo-block-wrapper">
           <div class="about__logo-container">
             <img class="about__logo-img" src="./images/logo-white.svg" alt="Логотип аукциона Оно тебе надо">
           </div>
-        </div>
-        
+        </div>       
         <div class="about__text-block-wrapper">
           <h3 class="about__title">Об аукционе</h3>
           <div class="about__text-container">
@@ -140,9 +139,16 @@
         <p><a class="header__address-ref" href="mailto:info@sobaka.ge">info@sobaka.ge</a></p>
         <p>наб. Принсенграхт 263-265,<br>Амстердам</p>
       </address>
-      <nav>Здесь находится меню</nav>
-      <address>
-        <ul class="footer__list">
+      <nav class="footer__navigation-menu">
+        <ul class="footer__navigation-menu-list">
+          <li class="footer__navigation-menu-item"><a>главная</a></li>
+          <li class="footer__navigation-menu-item"><a href="#lots">посмотреть лоты</a></li>
+          <li class="footer__navigation-menu-item"><a href="#about">об аукционе</a></li>
+        </ul>
+
+      </nav>
+      <address class="footer__social-network">
+        <ul class="footer__social-network-list">
           <li>
             <a href="#"><img class="footer__social-network-image" src="./images/yt.svg" alt="YouTube"></a>
           </li>
