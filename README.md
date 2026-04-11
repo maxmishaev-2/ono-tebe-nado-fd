@@ -1,2 +1,4 @@
 ## Проект "Оно тебе надо"
-### Пока в разаработке
+Ссылка на проект:
+
+https://github.com/maxmishaev-2/ono-tebe-nado-fd
