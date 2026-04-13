@@ -21,43 +21,43 @@
       <a class="header__logo-ref" href="#">
         <img class="header__logo" src="./images/logo-black.svg" alt="Логотип аукциона">
       </a>
-      <address class="header__address">
-        <div>
-          <p><a class="header__address-ref" href="tel:+99995555555">+9 999 555 5555</a></p>
-          <p><a class="header__address-ref" href="mailto:info@sobaka.ge">info@sobaka.ge</a></p>
-          <p>наб. Принсенграхт 263-<br>265, Амстердам</p>
-        </div>        
+      <address class="address">
+        <p class="header__address-paragraph"><a class="address-ref" href="tel:+99995555555">+9 999 555 5555</a></p>
+        <p class="header__address-paragraph"><a class="address-ref" href="mailto:info@sobaka.ge">info@sobaka.ge</a></p>
+        <p class="header__address-paragraph">наб. Принсенграхт 263-<br>265, Амстердам</p>
       </address>
     </header>
     <main>
       <section class="cover">
-        <div class="cover__overlay cover__overlay--paddings">
-          <h1 class="cover__title">
-            <span class="cover__title-first-word">Оно</span>
-            <span class="cover__title-second-word">тебе</span>
-            <span class="cover__title-third-word">надо</span>
-          </h1>
-          <div class="cover__description">
-            <p class="cover__description-text">
-              <span>Аукцион</span>
-              <span>вещей,</span>
-              <span>в</span>
-              <span>которые</span>
-              <span>никто</span>
-              <span>не</span>
-              <span>верил</span>                  
-            </p>
-            <a class="cover__button-ref" href="#"><div class="cover__button">Сделать ставку</div></a>
-          </div>
-        </div>        
+        <div class="overlay"></div>
+        <!-- <div class="cover__overlay cover__overlay--paddings"> -->
+        <h1 class="cover__title">
+          <span class="cover__title-word-ono">Оно</span>
+          <span class="cover__title-word-tebe">тебе</span>
+          <span class="cover__title-word-nado">надо</span>
+        </h1>
+        <div class="cover__description">
+          <p class="cover__description-text">
+            <span>Аукцион</span>
+            <span>вещей,</span>
+            <span>в</span>
+            <span>которые</span>
+            <span>никто</span>
+            <span>не</span>
+            <span>верил</span>                  
+          </p>
+          <a class="cover__button-ref" href="#0"><div class="cover__button">Сделать ставку</div></a>
+           <!-- <button>Сделать ставку</button> -->
+        </div>
+        <!-- </div>         -->
       </section>
       <section id="lots" class="lots">
         <h2 class="lots__title">Лоты</h2>
         <ul class="lots__list">
           <li class="lots__list-item">
             <a href="#">
-              <article class="lots__article lots__article--first-background">
-                <div class="lots__article-container cover__overlay lots__article--overlay-paddings">
+              <article class="lots__article lots__article--background-anderson">
+                <div class="lots__article-container">
                   <h3 class="lots__article-title">
                     Фильм режиссёра, который бросил киношколу
                   </h3>
@@ -65,14 +65,15 @@
                     Не&nbsp;просто бросил, а&nbsp;ушёл с&nbsp;первой лекции. 
                     Какой была бы&nbsp;ваша ставка, если бы&nbsp;вы не&nbsp;знали, что режиссёр — Пол Томас Андерсон?
                   </p>
-                </div>                
+                </div>
+                <div class="overlay"></div>                
               </article>
             </a>
           </li>
           <li class="lots__list-item">
             <a href="#">
-              <article class="lots__article lots__article--second-background">
-                <div class="lots__article-container cover__overlay lots__article--overlay-paddings">
+              <article class="lots__article lots__article--background-joice">
+                <div class="lots__article-container">
                   <h3 class="lots__article-title">
                     Книга, где&nbsp;описан один скучный день из&nbsp;жизни рекламного агента
                   </h3>
@@ -82,14 +83,15 @@
                     И&nbsp;это всё накладывается на&nbsp;эпическую поэму Гомера. 
                     Сколько бы&nbsp;вы&nbsp;поставили на&nbsp;«Улисса» Джеймса Джойса?
                   </p>
-                </div>                
+                </div>
+                <div class="overlay"></div>                
               </article>
             </a>
           </li>
           <li class="lots__list-item">
             <a href="#">
-              <article class="lots__article  lots__article--third-background">
-                <div class=" lots__article-container cover__overlay lots__article--overlay-paddings">
+              <article class="lots__article  lots__article--background-kandinsky">
+                <div class=" lots__article-container">
                   <h3 class="lots__article-title">
                     Картина, которую повторит даже 5-летний сын маминой подруги
                   </h3>
@@ -98,7 +100,8 @@
                     Никаких полей, лесов, котиков... 
                     Сколько бы&nbsp;вы на&nbsp;такое поставили, если&nbsp;бы&nbsp;не&nbsp;знали, что&nbsp;это — одна из&nbsp;революционных работ Кандинского?
                   </p>
-                </div>                
+                </div>
+                <div class="overlay"></div>               
               </article>
             </a>
           </li>
@@ -134,9 +137,9 @@
       </section>
     </main>
     <footer class="footer">
-      <address class="header__address footer--address">
-        <p><a class="header__address-ref" href="tel:+99995555555">+9 999 555 5555</a></p>
-        <p><a class="header__address-ref" href="mailto:info@sobaka.ge">info@sobaka.ge</a></p>
+      <address class="address footer--address">
+        <p><a class="address-ref" href="tel:+99995555555">+9 999 555 5555</a></p>
+        <p><a class="address-ref" href="mailto:info@sobaka.ge">info@sobaka.ge</a></p>
         <p>наб. Принсенграхт 263-265,<br>Амстердам</p>
       </address>
       <nav class="footer__navigation-menu">
@@ -147,7 +150,7 @@
         </ul>
 
       </nav>
-      <address class="footer__social-network">
+      <div class="footer__social-network">
         <ul class="footer__social-network-list">
           <li>
             <a href="#"><img class="footer__social-network-image" src="./images/yt.svg" alt="YouTube"></a>
@@ -159,7 +162,7 @@
             <a href="#"><img class="footer__social-network-image" src="./images/pinterest.svg" alt="Pinterest"></a>
           </li>
         </ul>
-      </address>      
+      </div>      
     </footer>
   </body>
 </html>
