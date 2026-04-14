@@ -183,7 +183,7 @@ address__width {
   line-height: 1.2;
   font-weight: 700;
   text-transform: uppercase;
-  text-decoration: underline; 
+  text-decoration: underline;
   text-underline-offset: 0.15em;
   margin-bottom: 30px;
 }
